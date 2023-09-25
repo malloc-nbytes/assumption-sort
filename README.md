@@ -70,7 +70,7 @@ int main(void)
 }
 ```
 
-Yet the output stays the same.
+Yet the output stays the same (note that it *is* sorted).
 ```
 1
 2
