@@ -19,12 +19,3 @@ void assumption_sort(void *data, size_t len, size_t stride, int (*compar)(const 
 ```c
 void assumption_quick_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
 ```
-
-
-
-```c
-void assumption_sort_r(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
-```
-
-
-

@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -o main main.c lazy.c
+gcc -o main main.c assumption.c
