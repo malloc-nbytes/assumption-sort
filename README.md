@@ -5,29 +5,28 @@ This is a joke project.
 This is an implementation of *the best* sorting algorithm and is guaranteed to run at O(1) time. It works by taking an array, assumes that it is sorted, and does nothing.
 
 ## Updates
-90-25-2023: Added implementations for the following languages:
 
-    1. c
+### 90-25-2023
 
-    2. common-lisp
+Removed the python implementation as even the speed of this algorithm, it seems to not speed up the performance in python.
 
-    3. cpp
+### 90-25-2023
 
-    4. fortran
+Added implementations for the following languages:
 
-    5. go
-
-    6. haskell
-
-    7. java
-
-    8. js
-
-    9. ocaml
-
-    10. python
-
-    11. rust
+```
+c
+common-lisp
+cpp
+fortran
+go
+haskell
+java
+js
+ocaml
+python
+rust
+```
 
 ## Usage
 
