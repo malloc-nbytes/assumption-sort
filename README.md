@@ -4,6 +4,20 @@ This is a joke project.
 
 This is an implementation of *the best* sorting algorithm and is guaranteed to run at O(1) time. It works by taking an array, assumes that it is sorted, and does nothing.
 
+## Updates
+90-25-2023: Added implementations for the following languages:
+    1. c
+    2. common-lisp
+    3. cpp
+    4. fortran
+    5. go
+    6. haskell
+    7. java
+    8. js
+    9. ocaml
+    10. python
+    11. rust
+
 ## Usage
 
 There are three implementations included with this project.
