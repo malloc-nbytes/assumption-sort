@@ -8,7 +8,7 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ### 90-25-2023
 
-Removed the python implementation as even the speed of this algorithm, it seems to not speed up the performance in python.
+Removed the python implementation because this algorithm seems to not have any performance impact.
 
 ### 90-25-2023
 
