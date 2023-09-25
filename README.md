@@ -1,6 +1,6 @@
 # assumption-sort
 
-This project is inteded as a joke.
+This is a joke project.
 
 This is an implementation of *the best* sorting algorithm, guaranteed to run at O(1) time. Assumption sort is a sorting algorithm that takes an array, assumes that it is sorted, and returns it.
 
@@ -14,7 +14,7 @@ There are three implementations included with this project.
 void assumption_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
 ```
 
-2. The quick sort. It does the same thing as `assumption_sort`, but it does not `(void)param` each parameter. It takes a pointer to `data` (the array), `len` (the length of the array), `stride` (the length of each element), and `compar` (the comparison function).
+2. The quick sort, in case you need even more speed! It does the same thing as `assumption_sort`, but it does not `(void)` each parameter. It takes a pointer to `data` (the array), `len` (the length of the array), `stride` (the length of each element), and `compar` (the comparison function).
 
 ```c
 void assumption_quick_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
@@ -66,4 +66,13 @@ int main(void)
 
   return 0;
 }
+```
+
+Yet the output stays the same.
+```
+1
+2
+3
+4
+5
 ```
