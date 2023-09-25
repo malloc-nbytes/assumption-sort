@@ -6,6 +6,7 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ## Updates
 90-25-2023: Added implementations for the following languages:
+
     1. c
 
     2. common-lisp
