@@ -2,7 +2,7 @@
 
 This is a joke project.
 
-This is an implementation of *the best* sorting algorithm, guaranteed to run at O(1) time. Assumption sort is a sorting algorithm that takes an array, assumes that it is sorted, and returns it.
+This is an implementation of *the best* sorting algorithm and is guaranteed to run at O(1) time. It works by taking an array, assumes that it is sorted, and does nothing.
 
 ## Usage
 
@@ -20,7 +20,9 @@ void assumption_sort(void *data, size_t len, size_t stride, int (*compar)(const 
 void assumption_quick_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
 ```
 
-In fact, this algorithm is on such a different level, you don't even need to call it and it will still work, you could argue it is *O(0)*.
+## Super Fun Facts About Assumption Sort
+1. There is an infinite number of lists that this algorithm will sort.
+2. This algorithm is on such a different level, you don't even need to call it and it will still work, you could argue it is *O(0)*.
 
 This code:
 ```c
@@ -76,3 +78,5 @@ Yet the output stays the same.
 4
 5
 ```
+
+###### Note: assumption sort may fail, just ignore this small side effect and keep trying.
