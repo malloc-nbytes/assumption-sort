@@ -4,11 +4,11 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ## Updates
 
-### 90-25-2023
+### 09-25-2023
 
 Removed the python implementation because this algorithm seems to not have any performance impact.
 
-### 90-25-2023
+### 09-25-2023
 
 Added implementations for the following languages:
 
