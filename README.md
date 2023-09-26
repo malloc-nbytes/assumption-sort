@@ -4,6 +4,14 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ## Updates
 
+### 09-26-2023
+
+Re-added the implementation to go-lang. However, since assumption-sort is O(0) the actual code was removed as it is not needed.
+
+### 09-26-2023
+
+Removed the implementation for go-lang because I hate their mascot is the worst thing I have ever seen.
+
 ### 09-25-2023
 
 Removed the python implementation because this algorithm seems to not have any performance impact.
@@ -17,7 +25,6 @@ c
 common-lisp
 cpp
 fortran
-go
 haskell
 java
 js
