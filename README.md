@@ -1,7 +1,5 @@
 # assumption-sort
 
-This is a joke project.
-
 This is an implementation of *the best* sorting algorithm and is guaranteed to run at O(1) time. It works by taking an array, assumes that it is sorted, and does nothing.
 
 ## Updates
