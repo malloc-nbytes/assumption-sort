@@ -45,6 +45,11 @@ void assumption_sort(void *data, size_t len, size_t stride, int (*compar)(const 
 
 2. The quick sort, in case you need even more speed! It does the same thing as `assumption_sort`, but it does not `(void)` each parameter. It takes a pointer to `data` (the array), `len` (the length of the array), `stride` (the length of each element), and `compar` (the comparison function).
 
+```c
+void assumption_quick_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
+```
+
+Note: `assumption_quick_sort` is only available in C because I said so.
 
 ## Super Fun Facts About Assumption Sort
 1. There is an infinite number of lists that this algorithm will sort.
