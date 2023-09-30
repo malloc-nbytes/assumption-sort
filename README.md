@@ -4,7 +4,7 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ## Updates
 
-### 09-25-2023 (release day)
+### 09-25-2023 (release day 🎉)
 
 Added implementations for the following languages:
 
