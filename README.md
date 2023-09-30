@@ -4,38 +4,38 @@ This is an implementation of *the best* sorting algorithm and is guaranteed to r
 
 ## Updates
 
-### 09-26-2023
-
-Re-added the implementation to go-lang. However, since assumption-sort is O(0) the actual code was removed as it is not needed.
-
-### 09-26-2023
-
-Removed the implementation for go-lang because I hate their mascot is the worst thing I have ever seen.
-
-### 09-25-2023
-
-Removed the python implementation because this algorithm seems to not have any performance impact.
-
-### 09-25-2023
+### 09-25-2023 (release day)
 
 Added implementations for the following languages:
 
 ```
-c
-common-lisp
-cpp
-fortran
-haskell
-java
-js
-ocaml
-python
-rust
+C
+C++
+Rust
+Common Lisp
+Fortran (ﾉಥДಥ)ﾉ ︵┻━┻･/
+Haskell
+Java
+Javascript
+OCaml
+Python (ﾉಥДಥ)ﾉ ︵┻━┻･/
 ```
+
+### 09-25-2023
+
+Removed the python implementation because even though this algorithm is O(0), there seems to be no performance gains.
+
+### 09-26-2023
+
+Removed the implementation for go-lang because I hate the mascot. *I hate the mascot*
+
+### 09-26-2023
+
+Re-added the implementation to go-lang. However, since assumption-sort is O(0) the actual code was removed as it is not needed.
 
 ## Usage
 
-There are three implementations included with this project.
+There are ~~one billion, two hundred and seventy one million, four hundred and twenty two thousand, six hundred and sixty nine~~ two implementations included with this project.
 
 1. The basic sort. It takes a pointer to `data` (the array), `len` (the length of the array), `stride` (the length of each element), and `compar` (the comparison function).
 
@@ -45,9 +45,6 @@ void assumption_sort(void *data, size_t len, size_t stride, int (*compar)(const 
 
 2. The quick sort, in case you need even more speed! It does the same thing as `assumption_sort`, but it does not `(void)` each parameter. It takes a pointer to `data` (the array), `len` (the length of the array), `stride` (the length of each element), and `compar` (the comparison function).
 
-```c
-void assumption_quick_sort(void *data, size_t len, size_t stride, int (*compar)(const void *, const void *));
-```
 
 ## Super Fun Facts About Assumption Sort
 1. There is an infinite number of lists that this algorithm will sort.
